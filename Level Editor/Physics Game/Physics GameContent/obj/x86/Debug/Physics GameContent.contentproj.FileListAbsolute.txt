@@ -1,0 +1,2 @@
+C:\Users\Recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics GameContent\obj\x86\Debug\Physics GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics GameContent\obj\x86\Debug\Physics GameContent.contentprojResolveAssemblyReference.cache

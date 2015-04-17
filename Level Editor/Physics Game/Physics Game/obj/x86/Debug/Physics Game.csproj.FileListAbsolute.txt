@@ -1,0 +1,14 @@
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\bin\x86\Debug\Physics Game.exe
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\bin\x86\Debug\Physics Game.pdb
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\obj\x86\Debug\Physics Game.exe
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\obj\x86\Debug\Physics Game.pdb
+c:\users\recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\bin\x86\Debug\Content\myFont.xnb
+C:\Users\Recondite\documents\visual studio 2010\Projects\Physics Game\Physics Game\Physics Game\obj\x86\Debug\Physics Game.csprojResolveAssemblyReference.cache
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\bin\x86\Debug\Content\myFont.xnb
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\bin\x86\Debug\Physics Game.exe
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\bin\x86\Debug\Physics Game.pdb
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\obj\x86\Debug\Physics Game.csprojResolveAssemblyReference.cache
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\obj\x86\Debug\Physics Game.exe
+C:\Users\Recondite\Documents\Visual Studio 2010\Projects\Physics Game 3\Physics Game\Physics Game\obj\x86\Debug\Physics Game.pdb

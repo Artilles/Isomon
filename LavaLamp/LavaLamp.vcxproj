@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C2845EE-8699-4EBD-93B1-966048D3CE2F}</ProjectGuid>
+    <RootNamespace>LavaLamp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\LavaLamp\include;$(SolutionDir)\LavaLamp\include\freetype;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;glu32.lib;freetype.lib;libOpenAL32.dll.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\LavaLamp\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\LavaLamp\include;$(SolutionDir)\LavaLamp\include\freetype;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\LavaLamp\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;glu32.lib;freetype.lib;libOpenAL32.dll.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="FalseFightState.cpp" />
+    <ClCompile Include="GameFont.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="HighscoreState.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="OptionsState.cpp" />
+    <ClCompile Include="OverworldMenu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="shader_utils.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileManager.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AlertMessage.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\database_types.h" />
+    <ClInclude Include="include\engine_types.h" />
+    <ClInclude Include="include\Entity.h" />
+    <ClInclude Include="include\FalseFightState.h" />
+    <ClInclude Include="include\GameFont.h" />
+    <ClInclude Include="include\GameState.h" />
+    <ClInclude Include="include\GameWindow.h" />
+    <ClInclude Include="include\HighscoreState.h" />
+    <ClInclude Include="include\Image.h" />
+    <ClInclude Include="include\Input.h" />
+    <ClInclude Include="include\MenuState.h" />
+    <ClInclude Include="include\objloader.hpp" />
+    <ClInclude Include="include\OptionsState.h" />
+    <ClInclude Include="include\OverworldMenu.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\PlayState.h" />
+    <ClInclude Include="include\shader_utils.h" />
+    <ClInclude Include="include\SoundManager.h" />
+    <ClInclude Include="include\StateManager.h" />
+    <ClInclude Include="include\Tile.h" />
+    <ClInclude Include="include\TileManager.h" />
+    <ClInclude Include="include\World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\test.txt" />
+    <None Include="resource\text.f.glsl" />
+    <None Include="resource\text.v.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,90 @@
+# Exported from Wings 3D 1.5.2
+newmtl default2
+Ns 100.0
+d 1.0
+illum 2
+Kd 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ka 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+
+newmtl hat_auv
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+map_Kd hat_auv.tga
+
+newmtl image
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd pokemon_fire_red_girl_character_chibi_by_edlover35-d4x11dq.tga
+
+newmtl image2
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd Paper-beachcomber-sun-hat-in-natural-colour-side-924x784.tga
+
+newmtl image3
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd smallcircle.tga
+
+newmtl image4
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd Paper-beachcomber-sun-hat-in-natural-colour-side-924x2.tga
+
+newmtl image5
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd jun-watanabe-x-asics-gel-lyte-iii.tga
+
+newmtl image6
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd nike-pegasus-28-pink-and-blue-running-shoes.tga
+
+newmtl image7
+Ns 100.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ke 1.0 1.0 1.0
+map_Kd Hand_Wire2.jpga2f18ff4-4f9a-4351-8fbf-a08014e5caacLarger.tga
+
